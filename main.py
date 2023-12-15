@@ -10,6 +10,14 @@ def multiply(num1, num2):  # multiples num1 by num2
     return num1 * num2
 
 
+def add(num1, num2):
+    return num1 + num2
+
+
+def sub(num1, num2):
+    return num1 - num2
+
+
 
 def main():
     num1, num2 = input("enter two numbers:"), input()
