@@ -22,19 +22,20 @@ def sub(num1, num2):
     return num1 - num2
 
 
-
 def main():
-    num1, num2 = input("enter two numbers:"), input()
+    num1, num2 = input("enter two numbers:\n"), input()
     if not num1.isnumeric() or not num2.isnumeric():
         print("invalid Input")
         main()
+        return
 
     num1, num2 = int(num1), int(num2)
     print("enter a number corresponding to the operation you want:")
-    operator = input(" 1. add \n 2. subtract \n 3.multiply \n 4.divide \n 5. power")
-    if not operator.isnumeric() or 0 > int(operator) > 5:
+    operator = input(" 1. add \n 2. subtract \n 3.multiply \n 4.divide \n 5. power\n")
+    if not operator.isnumeric() or 0 >= int(operator) >= 5:
         print("invalid operator")
         main()
+        return
 
     operator = int(operator)
     if operator == 1:
