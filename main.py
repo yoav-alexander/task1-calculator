@@ -14,6 +14,10 @@ def add(num1, num2):
     return num1 + num2
 
 
+def power(base, exponent):
+    return base ** exponent
+
+
 def sub(num1, num2):
     return num1 - num2
 
