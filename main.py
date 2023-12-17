@@ -19,6 +19,9 @@ def power(base, exponent):
 
 
 def sub(num1, num2):
+    if num1 == num2 == 0:
+        print("Invalid operation ")
+        return
     return num1 - num2
 
 
