@@ -52,6 +52,7 @@ def main():
     else:
         result = power(num1, num2)
     print(f"the result is: {result}")
+    print("\n")
 
 
 if __name__ == '__main__':
